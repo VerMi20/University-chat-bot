@@ -90,3 +90,46 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+# - intent: surf_the_web
+#   examples: |
+#     - [what is the meaning of something](query)
+#     - [what is the full form of](query)
+#     - [who is the father of the nation](query)
+#     - [why is earth called blue planet](query)
+#     - [what is the capital of india](query)
+
+- synonym: english
+  examples: |
+    - English
+    - en
+    - eng
+    - Eng
+    - ENGLISH
+- synonym: ' duration'
+  examples: |
+    - durations
+    - how long
+- synonym: USA
+  examples: |
+    - US
+    - United States
+    - U.S.
+    - usa
+- synonym: United Kingdom
+  examples: |
+    - UK
+    - U.K.
+- synonym: money
+  examples: |
+    - amounts
+- synonym: organisation
+  examples: |
+    - companies
+- synonym: name
+  examples: |
+    - names
+
+- regex: greet
+  examples: |
+    - hey[^\s]*
