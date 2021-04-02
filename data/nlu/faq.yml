@@ -1,3 +1,6 @@
 version: "2.0"
 
 nlu:
+  - intent: users_faqs
+    examples: |
+      - faq questions to edit

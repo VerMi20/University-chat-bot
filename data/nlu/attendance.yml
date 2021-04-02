@@ -1,3 +1,34 @@
 version: "2.0"
 
 nlu:
+- intent: user_wants_to_check_attendance
+  examples: |
+    - I would like to know my attendance status
+    - Please tell me about my attendance
+    - I want to know about my classes
+    - I want to know how many classes I have attended
+    - I want to know how many classes have I missed
+    - I would like to know how many classes have I attended
+    - I would like to know how many classes have I missed
+    - Please display my attendance details
+    - Can I know about my attendance please
+
+- intent: user_wants_to_check_marks
+  examples: |
+    - I would like to know my marks status
+    - Please tell me about my marks
+    - I want to know about my marks
+    - I want to know how many marks I have scored
+    - I want to know how many marks have I missed
+    - I would like to know how many marks have I scored
+    - I would like to know how many marks have I missed
+    - Please display my marks details
+    - Can I know about my marks please
+
+- intent: user_submitted_usn
+  examples: |
+    - BT18CSE037__
+
+- intent: user_submitted_password
+  examples: |
+    - password123__

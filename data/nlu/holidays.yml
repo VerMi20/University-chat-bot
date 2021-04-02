@@ -1,0 +1,10 @@
+version: "2.0"
+
+nlu:
+- intent: user_wants_to_check_upcoming_holidays
+  examples: |
+    - I would like to know about events for this month
+    - Show me this month's holidays
+    - When is my next holiday
+    - I want to know about holidays
+    - Can you please tell me about upcoming holidays
