@@ -2,12 +2,18 @@ version: "2.0"
 
 intents:
   - greet
-  - goodbye
+  - bye
   - affirm
   - deny
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - react_positive
+  - react_negative
+  - canthelp
+  - explain
+  - next_step
+  - thank
 
 responses:
   utter_greet:
@@ -28,6 +34,10 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_welcome:
+  - text: "your are always welcome!"
+
 
 session_config:
   session_expiration_time: 60

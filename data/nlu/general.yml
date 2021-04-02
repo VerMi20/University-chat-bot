@@ -325,6 +325,17 @@ nlu:
     - ok, bye
     - ok.bye
     - see u later
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
     - see ya
     - see you
     - see you . bye
@@ -605,7 +616,7 @@ nlu:
     - hi there
     - hi there it's me
     - hi!
-    - hi.........................................................
+    - hi.............
     - hi?
     - hieee
     - hii
