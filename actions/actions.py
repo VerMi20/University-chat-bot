@@ -8,7 +8,9 @@
 # This is a simple example for a custom action which utters "Hello World!"
 from datetime import date
 from typing import Any, Text, Dict, List
+from urllib.parse import quote
 import sqlite3
+import webbrowser
 import pandas as pd
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
@@ -86,7 +88,6 @@ class ActionAskUsn(Action):
         dispatcher.utter_message(template="utter_ask_usn")
 
         return []
-
 
 class ActionAskPassword(Action):
 
@@ -188,3 +189,20 @@ class DisplayUpcomingHolidays(Action):
         dispatcher.utter_message(text=content)
 
         return []
+
+
+##################################
+#
+# class ActionAskUsn(Action):
+#
+#     def name(self) -> Text:
+#         return "show_query_results"
+#
+#     def run(self, dispatcher: CollectingDispatcher,
+#             tracker: Tracker,
+#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+#         to_search = str((tracker.latest_message)['entity'])
+#         if not to_search == "":
+#             webbrowser.open("https://www.google.com/search?q={}".format(quote(to_search)))
+#         return []
+# #################################

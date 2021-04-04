@@ -19,6 +19,7 @@ intents:
   - user_submitted_usn
   - user_wants_to_check_upcoming_holidays
   - user_wants_to_check_marks
+  # - surf_the_web
 
 responses:
   utter_greet:
