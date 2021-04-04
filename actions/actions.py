@@ -27,6 +27,7 @@ from rasa_sdk.executor import CollectingDispatcher
 #
 #         return []
 
+
 class ValidateCredentialsAndDisplayMarks(Action):
 
     def name(self) -> Text:
@@ -42,20 +43,19 @@ class ValidateCredentialsAndDisplayMarks(Action):
             #print("Event : ",event)
             if event.get("event") == "user":
                 messages.append(event.get("text"))
-        print("Messages : ",messages)
-
+        print("Messages : ", messages)
 
         reg_no = messages[-2]
         password = str((tracker.latest_message)['text'])
-        conn = sqlite3.connect('University.db')
+        conn = sqlite3.connect('students_database.db')
         query = "select * from Student_details where regno = '{0}' and password = '{1}'".format(reg_no,
                                                                                                 password)
-        print("Final query : ",query)
+        print("Final query : ", query)
         df = pd.read_sql(query, conn)
         if df.shape[0] == 1:
             values = list(df.values)[0]
             name = values[0]
-            subjects_col = ['sub1', 'sub2', 'sub3', 'sub4', 'lab1', 'lab2']
+            subjects_col = ['S1', 'S2', 'S3', 'S4', 'S5', 'Lab1', 'Lab2']
             marks_df = df[subjects_col]
             val_dict = (marks_df.to_dict('r'))[0]
             failed_subjects = ''
@@ -101,6 +101,7 @@ class ActionAskPassword(Action):
 
         return []
 
+
 class ValidateCredentialsAndDisplayAttendance(Action):
 
     def name(self) -> Text:
@@ -116,15 +117,14 @@ class ValidateCredentialsAndDisplayAttendance(Action):
             #print("Event : ",event)
             if event.get("event") == "user":
                 messages.append(event.get("text"))
-        print("Messages : ",messages)
-
+        print("Messages : ", messages)
 
         reg_no = messages[-2]
         password = str((tracker.latest_message)['text'])
-        conn = sqlite3.connect('University.db')
+        conn = sqlite3.connect('students_database.db')
         query = "select * from Student_details where regno = '{0}' and password = '{1}'".format(reg_no,
                                                                                                 password)
-        print("Final query : ",query)
+        print("Final query : ", query)
         df = pd.read_sql(query, conn)
         if df.shape[0] == 1:
             values = list(df.values)[0]
@@ -140,7 +140,8 @@ class ValidateCredentialsAndDisplayAttendance(Action):
             present_no_of_days = attendance_data.count(1)
             absent_no_of_days = attendance_data.count(0)
 
-            content = 'No of days present : ' + str(present_no_of_days) + '\nNo of days absent  : ' + str(
+            content = "Below are the details " + name + "\n\n\n"
+            content = content+'No of days present : ' + str(present_no_of_days) + '\nNo of days absent  : ' + str(
                 absent_no_of_days)
 
         else:
@@ -162,6 +163,7 @@ class ActionAdmissionInfo(Action):
 
         return []
 
+
 class DisplayUpcomingHolidays(Action):
 
     def name(self) -> Text:
@@ -177,7 +179,8 @@ class DisplayUpcomingHolidays(Action):
         df2 = pd.read_excel('2021_calendar.xlsx')
         df2['Date'] = pd.to_datetime(df2['Date'])
         current_month_df = df2[df2['Date'].dt.month == int(this_month)]
-        content = 'Total of ' + str(current_month_df.shape[0]) + ' this month\n\n'
+        content = 'Total of ' + \
+            str(current_month_df.shape[0]) + ' this month\n\n'
         for i in range(current_month_df.shape[0]):
             content = content + str(current_month_df['Date'].values[i])[:10] + '  -  ' + str(
                 current_month_df['Holiday Description'].values[i]) + '\n'

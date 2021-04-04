@@ -34,7 +34,7 @@ responses:
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_ask_usn:
-  - text: Please enter your University seat number
+  - text: Please enter your Enrolment number
 
   utter_ask_password:
   - text: Please enter your password

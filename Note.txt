@@ -1,2 +1,19 @@
 The webpage used in this course was pulled from https://github.com/scalableminds/chatroom.
 
+#For rasa interactive mode
+rasa interactive
+
+#For training models
+rasa train
+
+#For rasa in terminal
+rasa shell
+
+#For actions.py server
+rasa run actions -vv
+
+#For web deployement on port [5021]
+rasa run -m models --enable-api --cors "*" -p 5021 
+
+
+
