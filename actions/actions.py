@@ -180,10 +180,36 @@ class DisplayUpcomingHolidays(Action):
         df2['Date'] = pd.to_datetime(df2['Date'])
         current_month_df = df2[df2['Date'].dt.month == int(this_month)]
         content = 'Total of ' + \
-            str(current_month_df.shape[0]) + ' this month\n\n'
+            str(current_month_df.shape[0]) + ' this month\n'+"--\n"
         for i in range(current_month_df.shape[0]):
             content = content + str(current_month_df['Date'].values[i])[:10] + '  -  ' + str(
                 current_month_df['Holiday Description'].values[i]) + '\n'
+
+        dispatcher.utter_message(text=content)
+
+        return []
+
+
+class DisplayUpcomingExams(Action):
+
+    def name(self) -> Text:
+        return "display_upcoming_exams"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        today = date.today()
+        print("Today's date:", today)
+        this_month = today.strftime("%m")
+        df2 = pd.read_excel('Exams.xlsx')
+        df2['StartDate'] = pd.to_datetime(df2['StartDate'])
+        current_month_df = df2[df2['StartDate'].dt.month >= int(this_month)]
+        content = 'The upcoming Exam dates are\n' + "--\n" + \
+            "Start-Date | Exam-Name | End-Date\n" + "______\n"
+        for i in range(current_month_df.shape[0]):
+            content = content + str(current_month_df['StartDate'].values[i])[:10] + '  |  ' + str(
+                current_month_df['Exam'].values[i])+' | ' + str(current_month_df['EndDate'].values[i])[:10] + '\n'
 
         dispatcher.utter_message(text=content)
 

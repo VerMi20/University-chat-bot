@@ -19,6 +19,7 @@ intents:
   - user_submitted_usn
   - user_wants_to_check_upcoming_holidays
   - user_wants_to_check_marks
+  - user_wants_to_check_upcoming_exams
 
 responses:
   utter_greet:
@@ -61,6 +62,7 @@ actions:
 - action_ask_usn
 - validate_credentials_and_display_attendance
 - display_upcoming_holidays
+- display_upcoming_exams
 
 session_config:
   session_expiration_time: 60
