@@ -27,8 +27,38 @@ nlu:
 
 - intent: user_submitted_usn
   examples: |
-    - BT18CSE037__
+    - bt18cse042
+    - bt18cse041
+    - bt18cse042
+    - bt18cse043
+    - bt18cse044
+    - bt18cse045
+    - bt18cse046
+    - bt18cse047
+    - bt18cse048
+    - bt18cse049
+    - bt18cse050
+    - bt18cse051
+    - bt18cse052
+    - bt18cse053
+    - bt18cse054
+
 
 - intent: user_submitted_password
   examples: |
-    - password123__
+    - JYoDQrES
+    - dTdiUpMi
+    - TbpBXuJC
+    - NAZoEYOD
+    - nEqTMlyU
+    - pSJnTwmG
+    - pLpWguSz
+    - DnBeoWKo
+    - TrmAySBL
+    - LNAVNENt
+    - MMjzmQyt
+    - lwaxdhGo
+    - XIjTYiVD
+    - HDamVuKd
+    - JYoDQrES
+
