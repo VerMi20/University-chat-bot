@@ -26,7 +26,9 @@ NOTE : It contains Note.txt which contains necessary command to run the project.
 ![](assets/chatbot_3.png)
 
 
-### Quick Installation
+Quick Installation
+-------------------
+
 You can install Rasa Open Source using pip (requires Python 3.6, 3.7 or 3.8).
 
 ```bash
