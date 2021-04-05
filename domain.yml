@@ -48,15 +48,15 @@ responses:
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
-    image: "https://raw.githubusercontent.com/Kalppawar/University-chat-bot/main/assets/wall-e.jpg"
+    image: "https://raw.githubusercontent.com/Kalppawar/University-chat-bot/main/assets/Gifon007.gif"
 
   utter_cheer_up2:
   - text: "Here is something else to help you:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    image: "https://raw.githubusercontent.com/Kalppawar/University-chat-bot/main/assets/detective-pikachu.gif"
 
   utter_kidding_bot:
   - text: "who am i kidding I am just a bot :) "
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    image: "https://raw.githubusercontent.com/Kalppawar/University-chat-bot/main/assets/wall-e.gif"
   utter_ask_usn:
   - text: Please enter your Enrolment number
 
