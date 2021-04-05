@@ -1,0 +1,4 @@
+.vscode/*
+
+models/*
+!models/model.tar.gz

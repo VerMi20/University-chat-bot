@@ -42,16 +42,16 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
-############################################
-# - intent: surf_the_web
-#   examples: |
-#     - what is ["the meaning of something"](query)
-#     - what is ["the full form of LSTM"](query)
-#     - who is ["the father of the nation"](query)
-#     - why ["earth is called blue planet"](query)
-#     - what is ["the capital of india"](query)
-#     - search for ["harry potter"](query)
-#     - search online for ["how to install python"](query)
+###########################################
+- intent: surf_the_web
+  examples: |
+    - what is ["the meaning of something"](query)
+    - what is ["the full form of LSTM"](query)
+    - who is ["the father of the nation"](query)
+    - why ["earth is called blue planet"](query)
+    - what is ["the capital of india"](query)
+    - search for ["harry potter"](query)
+    - search online for ["how to install python"](query)
 
 
 - synonym: english

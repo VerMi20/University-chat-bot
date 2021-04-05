@@ -1,3 +1,30 @@
 version: "2.0"
 
 stories:
+- story: FAQ_clghighest_package
+  steps:
+  - intent:  question_about_clgpackage
+  - action: utter_greet
+  - action:  giving_list_in_a_bit
+  - action: did_that_help
+  - intent: affirm
+  - action: thank_goodbye
+
+- story: FAQ_clginternship
+  steps:
+   -intent: question_about_clg_internships
+    - action:utter_great
+    - action:Internship_details
+    - intent:affirm
+    - action:thank_goodbye
+
+
+- story: FAQ_Clg_Courses
+  steps:
+    - intent:user_wants_courses_available
+    - action:list_of_courses
+    - intent:affirm
+    - action:thank_goodbye
+ 
+
+
