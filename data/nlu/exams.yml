@@ -1,0 +1,10 @@
+version: "2.0"
+
+nlu:
+- intent: user_wants_to_check_upcoming_exams
+  examples: |
+    - I would like to know about exams for this month
+    - Show me this month's exams
+    - When is my next exam
+    - I want to know about exams
+    - Can you please tell me about upcoming exams

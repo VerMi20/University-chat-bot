@@ -1,0 +1,10 @@
+version: "2.0"
+
+stories:
+- story: User wants to check upcoming exams
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_wants_to_check_upcoming_exams
+  - action: display_upcoming_exams
+  - action: utter_goodbye
