@@ -48,7 +48,7 @@ responses:
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    image: "https://github.com/Kalppawar/University-chat-bot/blob/main/assets/wall-e.png"
 
   utter_cheer_up2:
   - text: "Here is something else to help you:"
@@ -71,7 +71,8 @@ responses:
 
   utter_goodbye:
   - text: "anything else!"
-
+  utter_tell_me_why_sad:
+  - text: "why are u sad, tell me about it"
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
@@ -81,17 +82,34 @@ responses:
   ###################################
 
   utter_internship_details:
-  - text: 'Companies visiting campus for internship :1.TCS\n 2.Juspay\n 3.Siemens\n 4.Capgemini\n 5.Amazon\n 6.BizSense Solutions Pvt Ltd, Nagpur\n 7.Persistent\n 8.Jio\n 9.Manipal global\n 10.Goldman Sachs \n 11.ISRO\n 12. IBM\n 13.Geomitra solutions LLP\n 14.Stride\n  15 Swabhav Tech Labs\n
-           Highest Stipend:38,500\n
-           Average Stipend:14,350\n'
+  - text: |
+      Companies visiting campus for internship :
+      1.TCS
+      2.Juspay
+      3.Siemens
+      4.Capgemini
+      5.Amazon
+      6.BizSense Solutions Pvt Ltd, Nagpur
+      7.Persistent
+      8.Jio
+      9.Manipal global
+      10.Goldman Sachs 
+      11.ISRO
+      12.IBM
+      13.Geomitra solutions LLP
+      14.Stride
+      15 Swabhav Tech Labs
+      Highest Stipend:38,500
+      Average Stipend:14,350
 
   utter_thank_goodbye:
   - text: I hope that was helpful.goodbye.
 
   utter_list_of_courses:
   - text: 'CSE: Data Structures,Design Analysis,Machine Learning,Deep Learning,Parallel Computing ,High-Performance Computing,Data Mining ,IoT, Pattern recognition,Computer Organisation,etc
-            \n ECE:EEE,Neurofuzzy,Microprocessorsetc
-            \n BSE: Calculas 1 and 2,MDS,Applied Sciences'
+             ECE:EEE,Neurofuzzy,Microprocessorsetc
+            
+ BSE: Calculas 1 and 2,MDS,Applied Sciences'
    
   exam_details:
   - text: 'Mid sem:  13 March to 22ND March 2021 End Semester: 27 April to 7 May 2021(All Branches)'
@@ -102,24 +120,28 @@ responses:
                                             Total: 73.17% (30/41) Placed 
                                                
 
-                                             Companied Visited for Placements: Siemens Healthineers, Reliance Jio,Clever Tap ,Affluence Infosystems Ltd,ARM Embedded systems,Tech Walnut LLP,TCS (R&I Profile),Swabhav Technologies,TCS (Digital Profile),Click2Cloud Inc,TCS NQT (Ninja profile),WileyNXT,Manipal Global Education Ltd,Power Exchange India Ltd,L&T Infotech,WhitaPanda,Ubisoft,Topp Scholars,Virtusa,Persistent Systems Ltd,SU Tech,ONE BANC (CoCubes),Bit Mapper Integration Technologies Pvt Ltd,ACT FiberNet\n
+                                             Companied Visited for Placements: Siemens Healthineers, Reliance Jio, Clever Tap, Affluence Infosystems Ltd, ARM Embedded systems, Tech Walnut LLP, TCS (R&I Profile), Swabhav Technologies, TCS (Digital Profile), Click2Cloud Inc, TCS NQT (Ninja profile), WileyNXT, Manipal Global Education Ltd, Power Exchange India Ltd, L&T Infotech, WhitaPanda, Ubisoft, opp Scholars, Virtusa, Persistent Systems Ltd, SU Tech, ONE BANC (CoCubes), Bit Mapper Integration Technologies Pvt Ltd, ACT FiberNet
+
                                             
              Batch 2017-2021(Inprogess)     ECE Placed Students: 17%   (9/52Placed)
                                                            CSE Placed Students: 33% (29/89) Placed
                                                            Total: 327% (47/141) Placed 
     
-                                             Companied Visited for Placements: Siemens Healthineers, Reliance Jio,Clever Tap ,Affluence Infosystems Ltd,ARM Embedded systems,Tech Walnut LLP,TCS (R&I Profile),Swabhav Technologies,TCS (Digital Profile),Click2Cloud Inc,TCS NQT (Ninja profile),WileyNXT,Manipal Global Education Ltd,Power Exchange India Ltd,L&T Infotech,WhitaPanda,Ubisoft,Topp Scholars,Virtusa,Persistent Systems Ltd,SU Tech,ONE BANC (CoCubes),Bit Mapper Integration Technologies Pvt Ltd,ACT FiberNet\n'                                            
+                                             Companied Visited for Placements: Siemens Healthineers, Reliance Jio,Clever Tap ,Affluence Infosystems Ltd,ARM Embedded systems,Tech Walnut LLP,TCS (R&I Profile),Swabhav Technologies,TCS (Digital Profile),Click2Cloud Inc,TCS NQT (Ninja profile),WileyNXT,Manipal Global Education Ltd,Power Exchange India Ltd,L&T Infotech,WhitaPanda,Ubisoft,Topp Scholars,Virtusa,Persistent Systems Ltd,SU Tech,ONE BANC (CoCubes),Bit Mapper Integration Technologies Pvt Ltd,ACT FiberNet
+'                                            
 
   utter_giving_list_in_a_bit:
   - text: 'Placements - B. Tech Batch 2020
                                   Highest Package: 20 LPA
                                   Average Package: 8.5 LPA
-                                    Companied Visited for Placements: Siemens Healthineers, Reliance Jio,Clever Tap ,Affluence Infosystems Ltd,ARM Embedded systems,Tech Walnut LLP,TCS (R&I Profile),Swabhav Technologies,TCS (Digital Profile),Click2Cloud Inc,TCS NQT (Ninja profile),WileyNXT,Manipal Global Education Ltd,Power Exchange India Ltd,L&T Infotech,WhitaPanda,Ubisoft,Topp Scholars,Virtusa,Persistent Systems Ltd,SU Tech,ONE BANC (CoCubes),Bit Mapper Integration Technologies Pvt Ltd,ACT FiberNet\n
+                                    Companied Visited for Placements: Siemens Healthineers, Reliance Jio,Clever Tap ,Affluence Infosystems Ltd,ARM Embedded systems,Tech Walnut LLP,TCS (R&I Profile),Swabhav Technologies,TCS (Digital Profile),Click2Cloud Inc,TCS NQT (Ninja profile),WileyNXT,Manipal Global Education Ltd,Power Exchange India Ltd,L&T Infotech,WhitaPanda,Ubisoft,Topp Scholars,Virtusa,Persistent Systems Ltd,SU Tech,ONE BANC (CoCubes),Bit Mapper Integration Technologies Pvt Ltd,ACT FiberNet
+
                                             
                                     B. Tech Batch 2021
                                   Highest Package: 25 LPA
                                   Average Package: 6.5 LPA
-                                   Companied Visited for Placements: Siemens Healthineers, Reliance Jio,Clever Tap ,Affluence Infosystems Ltd,ARM Embedded systems,Tech Walnut LLP,TCS (R&I Profile),Swabhav Technologies,TCS (Digital Profile),Click2Cloud Inc,TCS NQT (Ninja profile),WileyNXT,Manipal Global Education Ltd,Power Exchange India Ltd,L&T Infotech,WhitaPanda,Ubisoft,Topp Scholars,Virtusa,Persistent Systems Ltd,SU Tech,ONE BANC (CoCubes),Bit Mapper Integration Technologies Pvt Ltd,ACT FiberNet\n'
+                                   Companied Visited for Placements: Siemens Healthineers, Reliance Jio,Clever Tap ,Affluence Infosystems Ltd,ARM Embedded systems,Tech Walnut LLP,TCS (R&I Profile),Swabhav Technologies,TCS (Digital Profile),Click2Cloud Inc,TCS NQT (Ninja profile),WileyNXT,Manipal Global Education Ltd,Power Exchange India Ltd,L&T Infotech,WhitaPanda,Ubisoft,Topp Scholars,Virtusa,Persistent Systems Ltd,SU Tech,ONE BANC (CoCubes),Bit Mapper Integration Technologies Pvt Ltd,ACT FiberNet
+'
        
     
   utter_clg_details:
