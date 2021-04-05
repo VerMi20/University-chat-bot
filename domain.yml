@@ -21,6 +21,9 @@ intents:
   - user_wants_to_check_marks
   - surf_the_web
   - user_wants_to_check_upcoming_exams
+  - question_about_clgpackage
+  - question_about_clg_internships
+  - user_wants_courses_available
 
 responses:
   utter_greet:
