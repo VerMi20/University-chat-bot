@@ -48,7 +48,7 @@ responses:
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
-    image: "https://github.com/Kalppawar/University-chat-bot/blob/main/assets/wall-e.jpg"
+    image: "https://raw.githubusercontent.com/Kalppawar/University-chat-bot/main/assets/wall-e.jpg"
 
   utter_cheer_up2:
   - text: "Here is something else to help you:"
@@ -120,7 +120,7 @@ responses:
       EEE,
       Neurofuzzy,
       Microprocessors, etc
-            
+
       BSE: 
       Calculas 1 and 2,
       MDS,
@@ -140,13 +140,11 @@ responses:
       __ECE Placed Students: 58.82%   (10/17Placed)
       __CSE Placed Students: 83.33% (20/24) Placed
       __Total: 73.17% (30/41) Placed 
-
-                                            
+                                 
       Batch 2017-2021(Inprogess)     
       __ECE Placed Students: 17%   (9/52Placed)
       __CSE Placed Students: 33% (29/89) Placed
       __Total: 327% (47/141) Placed 
-                                          
 
       Companied Visited for Placements:
       Siemens Healthineers, 
@@ -179,7 +177,7 @@ responses:
       Placements - B. Tech Batch 2020
       Highest Package: 20 LPA
       Average Package: 8.5 LPA
-                                            
+            
       B. Tech Batch 2021
       Highest Package: 25 LPA
       Average Package: 6.5 LPA
@@ -217,10 +215,10 @@ responses:
       MakeShift Address: IIIT Nagpur, BSNL - Regional Telecom Training Center (RTTC), Near TV Tower or Beside Balaji Temple,Seminary Hills, Nagpur
 
       Permanent Address: Survey No. 140,141/1 behind Br. Sheshrao Wankhade Shetkari Sahkari Soot Girni, Village - Waranga, PO - Bori (Butibori) Tahsil- Nagpur (Rural) District Nagpur - 441108
- 
+
       0712-2985010;9405215010
       info@iiitn.ac.in'
-            
+
 ###################################
 
 

@@ -13,7 +13,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: react_negative
+  - intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
   - intent: affirm
@@ -23,17 +23,19 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: react_negative
+  - intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
   - intent: deny
   - action: utter_cheer_up2
+  - intent: affirm
+  - action: utter_goodbye
 
 - story: sad path 3
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: react_negative
+  - intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
   - intent: deny
