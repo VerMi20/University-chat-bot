@@ -3,27 +3,48 @@ version: "2.0"
 stories:
 - story: FAQ clg highest package
   steps:
-  - intent: question_about_clgpackage
-  - action: utter_greet
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: thank_goodbye
+    - intent: ask_faq
+    - action: utter_faq
+    - intent: question_about_clgpackage
+    - action: utter_giving_list_in_a_bit
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_thank_goodbye
 
 - story: FAQ clg internship
   steps:
-  - intent: question_about_clg_internships
-  - action: utter_great
-  - action: Internship_details
-  - intent: affirm
-  - action: thank_goodbye
+  -  intent: ask_faq
+  -  action: utter_faq
+  -  intent: question_about_clg_internships
+  -  action: utter_internship_details
+  -  action: utter_did_that_help
+  -  intent: affirm
+  -  action: utter_thank_goodbye
 
 
 - story: FAQ Clg Courses
   steps:
-  - intent: user_wants_courses_available
-  - action: list_of_courses
-  - intent: affirm
-  - action: thank_goodbye
+  -  intent: ask_faq
+  -  action: utter_faq
+  -  intent: user_wants_courses_available
+  -  action: utter_list_of_courses
+  -  action: utter_did_that_help
+  -  intent: affirm
+  -  action: utter_thank_goodbye
  
 
+- story: Placement PERCENTAGE
+  steps:
+    - intent: user_wants_placement_percentage
+    - action: utter_overall_placement_percentage
+    - intent: affirm
+    - action: utter_thank_goodbye
 
+
+
+- story: utter_clg_details_email
+  steps:
+    - intent: user_wants_utter_clg_details
+    - action: utter_clg_details
+    - intent: affirm
+    - action: utter_thank_goodbye

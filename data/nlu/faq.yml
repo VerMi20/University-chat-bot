@@ -10,8 +10,6 @@ nlu:
       - Highest CTC
       - Highest salary
 
-
-
   - intent: question_about_clg_internships
     examples: |
       - How are the college internships?
@@ -19,18 +17,9 @@ nlu:
       - How many compaines come to college for internship?
       - Can I get software internship if i'm from ECE?
       - What companies come for ECE?
-
-
-  - intent: user_wants_to_know_exam_details
-    examples: |
-      - When is mid sem?
-      - Exams?
-      - exam timetable
-      - When are my exams?
-      - Viva?
-      - Lab evaluation?
-      - when is endsem?
-
+      - how about intern
+      - intern details
+      - show intern detail
 
   - intent: user_wants_courses_available
     examples: |
@@ -40,12 +29,18 @@ nlu:
       - ECE subjects?
 
 
-  - intent: user_wants_clg_details
+  - intent: user_wants_utter_clg_details
     examples: |
       - What is college address
       - what is college email id
 
 
+  - intent: ask_faq
+    examples: |
+      - i want to ask some FAQ
+      - faq
+      - i have some questions
+      - i have some faq
 
   - intent: user_wants_placement_percentage
     examples: |
