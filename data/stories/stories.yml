@@ -28,6 +28,7 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_cheer_up2
+  - action: utter_did_that_help
   - intent: affirm
   - action: utter_goodbye
 
@@ -40,18 +41,22 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_cheer_up2
+  - action: utter_did_that_help
   - intent: deny
   - action: utter_tell_me_why_sad
   - intent: canthelp
   - action: utter_kidding_bot
 
 ################################
-- story: search web
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: surf_the_web
-  - action: show_query_results
-  - intent: affirm
-  - action: utter_goodbye
+# - story: interactive_story_1
+#   steps:
+#   - intent: mood_great
+#   - action: utter_greet
+#   - intent: surf_the_web
+#     entities:
+#     - query: '"harry potter"'
+#     - query: '"how to install python"'
+#     - query: '"full form of LSTM"'
+#   - action: show_query_results
+
 #################################

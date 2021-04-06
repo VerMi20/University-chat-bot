@@ -660,7 +660,7 @@ nlu:
     - please go to the next step
     - take me to the next step
     - what is the next step ?
-- intent: react_negative
+- intent: mood_unhappy
   examples: |
     - I am feeling bad
     - I am sad

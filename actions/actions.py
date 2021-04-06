@@ -191,13 +191,13 @@ class DisplayUpcomingHolidays(Action):
         return []
 
 
-##################################
-#
+#################################
+
 # class ActionAskUsn(Action):
-#
+
 #     def name(self) -> Text:
 #         return "show_query_results"
-#
+
 #     def run(self, dispatcher: CollectingDispatcher,
 #             tracker: Tracker,
 #             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
@@ -205,7 +205,7 @@ class DisplayUpcomingHolidays(Action):
 #         if not to_search == "":
 #             webbrowser.open("https://www.google.com/search?q={}".format(quote(to_search)))
 #         return []
-# #################################
+#################################
 class DisplayUpcomingExams(Action):
 
     def name(self) -> Text:

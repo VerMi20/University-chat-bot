@@ -1,32 +1,35 @@
-version: "2.0"
-
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 intents:
-  - greet
-  - bye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - react_positive
-  - react_negative
-  - canthelp
-  - explain
-  - next_step
-  - thank
-  - user_submitted_password
-  - user_wants_to_check_attendance
-  - user_submitted_usn
-  - user_wants_to_check_upcoming_holidays
-  - user_wants_to_check_marks
-  - surf_the_web
-  - user_wants_to_check_upcoming_exams
-  - question_about_clgpackage
-  - question_about_clg_internships
-  - user_wants_courses_available
-  - user_wants_utter_clg_details
-  - user_wants_placement_percentage
-
+- surf_the_web
+- react_negative
+- greet
+- bye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- react_positive
+- canthelp
+- explain
+- next_step
+- thank
+- user_submitted_password
+- user_wants_to_check_attendance
+- user_submitted_usn
+- user_wants_to_check_upcoming_holidays
+- user_wants_to_check_marks
+- user_wants_to_check_upcoming_exams
+- question_about_clgpackage
+- question_about_clg_internships
+- user_wants_courses_available
+- user_wants_utter_clg_details
+- user_wants_placement_percentage
+entities:
+- query
 responses:
   utter_greet:
   - buttons:
@@ -35,7 +38,6 @@ responses:
     - payload: I would like to know about my marks
       title: Marks
     text: Hey! Hope you are doing well. Below are few of the suggestions
-
   utter_faq:
   - buttons:
     - payload: I would like to know about Internship
@@ -45,42 +47,31 @@ responses:
     - payload: I would like to know about Courses
       title: Courses
     text: Hey! Below are few of the suggestions
-
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://raw.githubusercontent.com/Kalppawar/University-chat-bot/main/assets/Gifon007.gif"
-
+  - text: 'Here is something to cheer you up:'
+    image: https://raw.githubusercontent.com/Kalppawar/University-chat-bot/main/assets/Gifon007.gif
   utter_cheer_up2:
-  - text: "Here is something else to help you:"
-    image: "https://raw.githubusercontent.com/Kalppawar/University-chat-bot/main/assets/detective-pikachu.gif"
-
+  - text: 'Here is something else to help you:'
+    image: https://raw.githubusercontent.com/Kalppawar/University-chat-bot/main/assets/detective-pikachu.gif
   utter_kidding_bot:
-  - text: "who am i kidding I am just a bot :) "
-    image: "https://raw.githubusercontent.com/Kalppawar/University-chat-bot/main/assets/wall-e.gif"
+  - text: 'who am i kidding I am just a bot :) '
+    image: https://raw.githubusercontent.com/Kalppawar/University-chat-bot/main/assets/wall-e.gif
   utter_ask_usn:
   - text: Please enter your Enrolment number
-
   utter_ask_password:
   - text: Please enter your password
-
   utter_did_that_help:
-  - text: "Did that help you?"
-
+  - text: Did that help you?
   utter_happy:
-  - text: "Great, carry on!"
-
+  - text: Great, carry on!
   utter_goodbye:
-  - text: "anything else!"
+  - text: anything else!
   utter_tell_me_why_sad:
-  - text: "why are u sad, tell me about it"
+  - text: why are u sad, tell me about it
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
+  - text: I am a bot, powered by Rasa.
   utter_welcome:
-  - text: "your are always welcome!"
-
-  ################################### ###################################
-
+  - text: your are always welcome!
   utter_internship_details:
   - text: |
       Companies visiting campus for internship :
@@ -101,10 +92,8 @@ responses:
       15 Swabhav Tech Labs
       Highest Stipend:38,500
       Average Stipend:14,350
-
   utter_thank_goodbye:
   - text: I hope that was helpful.goodbye.
-
   utter_list_of_courses:
   - text: |
       CSE: 
@@ -125,7 +114,6 @@ responses:
       Calculas 1 and 2,
       MDS,
       Applied Sciences
-   
   exam_details:
   - text: |
       Mid sem:  
@@ -133,7 +121,6 @@ responses:
 
       End Sem: 
       27 April to 7 May 2021 (All Branches)
-
   utter_overall_placement_percentage:
   - text: |
       Batch 2016-2020:   
@@ -171,9 +158,8 @@ responses:
       ONE BANC (CoCubes), 
       Bit Mapper Integration Technologies Pvt Ltd, 
       ACT FiberNet
-
   utter_giving_list_in_a_bit:
-  - text: | 
+  - text: |
       Placements - B. Tech Batch 2020
       Highest Package: 20 LPA
       Average Package: 8.5 LPA
@@ -207,8 +193,6 @@ responses:
       ONE BANC (CoCubes), 
       Bit Mapper Integration Technologies Pvt Ltd, 
       ACT FiberNet
-
-    
   utter_clg_details:
   - text: |
       Contact Us :
@@ -219,18 +203,11 @@ responses:
       0712-2985010;9405215010
       info@iiitn.ac.in'
 
- ################################### ###################################
-
-
 actions:
-- validate_credentials_and_display_marks
 - action_ask_password
 - action_ask_usn
-- validate_credentials_and_display_attendance
-- display_upcoming_holidays
 - display_upcoming_exams
-- show_query_results
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+- display_upcoming_holidays
+# - show_query_results
+- validate_credentials_and_display_attendance
+- validate_credentials_and_display_marks
