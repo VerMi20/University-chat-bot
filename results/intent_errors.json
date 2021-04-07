@@ -1,21 +1,5 @@
 [
   {
-    "text": "great",
-    "intent": "mood_great",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.6966314315795898
-    }
-  },
-  {
-    "text": "EasyPasS",
-    "intent": "user_submitted_password",
-    "intent_prediction": {
-      "name": "react_positive",
-      "confidence": 0.9708114266395569
-    }
-  },
-  {
     "text": "I agree",
     "intent": "affirm",
     "intent_prediction": {
@@ -141,6 +125,22 @@
     "intent_prediction": {
       "name": "react_positive",
       "confidence": 0.9941505789756775
+    }
+  },
+  {
+    "text": "great",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6966314315795898
+    }
+  },
+  {
+    "text": "EasyPasS",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.9708114266395569
     }
   }
 ]

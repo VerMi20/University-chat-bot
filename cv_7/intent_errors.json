@@ -1,0 +1,1250 @@
+[
+  {
+    "text": "LNAVNENt",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.35842353105545044
+    }
+  },
+  {
+    "text": "HDamVuKd",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.4165861904621124
+    }
+  },
+  {
+    "text": "Great",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8736574053764343
+    }
+  },
+  {
+    "text": "ok, I behave now",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "canthelp",
+      "confidence": 0.7513232231140137
+    }
+  },
+  {
+    "text": "uh-huh",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.41134193539619446
+    }
+  },
+  {
+    "text": "yop",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9843553900718689
+    }
+  },
+  {
+    "text": ":D",
+    "intent": "react_positive",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9992413520812988
+    }
+  },
+  {
+    "text": "Great information",
+    "intent": "react_positive",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.49417078495025635
+    }
+  },
+  {
+    "text": "ciao",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.41825011372566223
+    }
+  },
+  {
+    "text": "farewell",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9962083101272583
+    }
+  },
+  {
+    "text": "cu",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.9093435406684875
+    }
+  },
+  {
+    "text": "definitely not",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7044558525085449
+    }
+  },
+  {
+    "text": "deny",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.6321215033531189
+    }
+  },
+  {
+    "text": "it is going pretty badly",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.8549448847770691
+    }
+  },
+  {
+    "text": "stop it, i do not care!!!",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "canthelp",
+      "confidence": 0.9471539855003357
+    }
+  },
+  {
+    "text": "can you elaborate",
+    "intent": "explain",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4362654387950897
+    }
+  },
+  {
+    "text": "ey boss",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.49774113297462463
+    }
+  },
+  {
+    "text": "i am Karen Mease",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7927921414375305
+    }
+  },
+  {
+    "text": "konichiwa",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.5698814988136292
+    }
+  },
+  {
+    "text": "merhaba",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.3353033661842346
+    }
+  },
+  {
+    "text": "salut",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8564409017562866
+    }
+  },
+  {
+    "text": "you're rather dull",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.9989268779754639
+    }
+  },
+  {
+    "text": "thx",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6003308892250061
+    }
+  },
+  {
+    "text": "perfect",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9999816417694092
+    }
+  },
+  {
+    "text": "pLpWguSz",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9985654354095459
+    }
+  },
+  {
+    "text": "lwaxdhGo",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6996446251869202
+    }
+  },
+  {
+    "text": "That would be great",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8497687578201294
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.8336277008056641
+    }
+  },
+  {
+    "text": "cool story bro",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.40124237537384033
+    }
+  },
+  {
+    "text": "top",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "canthelp",
+      "confidence": 0.8865893483161926
+    }
+  },
+  {
+    "text": "yeah, why not",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.46661442518234253
+    }
+  },
+  {
+    "text": "you are my new bestfriend",
+    "intent": "react_positive",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9218852519989014
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9507294297218323
+    }
+  },
+  {
+    "text": "goodnight",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9990387558937073
+    }
+  },
+  {
+    "text": "toodle-oo",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.40034210681915283
+    }
+  },
+  {
+    "text": "quit",
+    "intent": "canthelp",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9855272173881531
+    }
+  },
+  {
+    "text": "i don't think so",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "canthelp",
+      "confidence": 0.7545244097709656
+    }
+  },
+  {
+    "text": "nooooooooooooooooooo",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9997829794883728
+    }
+  },
+  {
+    "text": "not going well at all",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9243520498275757
+    }
+  },
+  {
+    "text": "i want more information",
+    "intent": "explain",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.9983804225921631
+    }
+  },
+  {
+    "text": "how come?",
+    "intent": "explain",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8531395792961121
+    }
+  },
+  {
+    "text": "Bom dia",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7192652821540833
+    }
+  },
+  {
+    "text": "hello world",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "question_about_clg_internships",
+      "confidence": 0.26777684688568115
+    }
+  },
+  {
+    "text": "howdy",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9789641499519348
+    }
+  },
+  {
+    "text": "jojojo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9855862855911255
+    }
+  },
+  {
+    "text": "yo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6915761232376099
+    }
+  },
+  {
+    "text": "i don't care!!!!",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9999765157699585
+    }
+  },
+  {
+    "text": "Surely you're not so smart lik i thought",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.9957854151725769
+    }
+  },
+  {
+    "text": "not good",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.641830563545227
+    }
+  },
+  {
+    "text": "I am great",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.674362301826477
+    }
+  },
+  {
+    "text": "super stoked",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.4334673285484314
+    }
+  },
+  {
+    "text": "JYoDQrES",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.999301016330719
+    }
+  },
+  {
+    "text": "nEqTMlyU",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9324908256530762
+    }
+  },
+  {
+    "text": "What companies come for ECE?",
+    "intent": "question_about_clg_internships",
+    "intent_prediction": {
+      "name": "explain",
+      "confidence": 0.9477282762527466
+    }
+  },
+  {
+    "text": "I'd absolutely love that",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.8674031496047974
+    }
+  },
+  {
+    "text": "Sweet",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8724803328514099
+    }
+  },
+  {
+    "text": "fair enough",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7273784279823303
+    }
+  },
+  {
+    "text": "going super well",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.927590012550354
+    }
+  },
+  {
+    "text": "i am!",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8587683439254761
+    }
+  },
+  {
+    "text": "that's great",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.9582727551460266
+    }
+  },
+  {
+    "text": "you are so smart",
+    "intent": "react_positive",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9960995316505432
+    }
+  },
+  {
+    "text": "Got it",
+    "intent": "react_positive",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9984081983566284
+    }
+  },
+  {
+    "text": "gotta go",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9876302480697632
+    }
+  },
+  {
+    "text": "and that's it?",
+    "intent": "canthelp",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6273816823959351
+    }
+  },
+  {
+    "text": "Guten Morgen",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "explain",
+      "confidence": 0.4902648329734802
+    }
+  },
+  {
+    "text": "jop",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9997833967208862
+    }
+  },
+  {
+    "text": "You are mad",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.6205456256866455
+    }
+  },
+  {
+    "text": "Thats so rude",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5284740328788757
+    }
+  },
+  {
+    "text": "That tool here isnt good",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5676090717315674
+    }
+  },
+  {
+    "text": "boring",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999595284461975
+    }
+  },
+  {
+    "text": "extremely good",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9705404043197632
+    }
+  },
+  {
+    "text": "dTdiUpMi",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8712196946144104
+    }
+  },
+  {
+    "text": "MMjzmQyt",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8752458095550537
+    }
+  },
+  {
+    "text": "I get it",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "canthelp",
+      "confidence": 0.9863359928131104
+    }
+  },
+  {
+    "text": "hm, i'd like that",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "canthelp",
+      "confidence": 0.7332967519760132
+    }
+  },
+  {
+    "text": "jo",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5295026898384094
+    }
+  },
+  {
+    "text": "that is cool",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.5700260996818542
+    }
+  },
+  {
+    "text": "More a less",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "explain",
+      "confidence": 0.9537979364395142
+    }
+  },
+  {
+    "text": "today was a nice day",
+    "intent": "react_positive",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.9988193511962891
+    }
+  },
+  {
+    "text": "h\u00e8h\u00e8",
+    "intent": "react_positive",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.49231159687042236
+    }
+  },
+  {
+    "text": "take care",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9675797820091248
+    }
+  },
+  {
+    "text": "Exit",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "canthelp",
+      "confidence": 0.999689519405365
+    }
+  },
+  {
+    "text": "Close this talk",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.913309633731842
+    }
+  },
+  {
+    "text": "i'm afraid not",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5091987252235413
+    }
+  },
+  {
+    "text": "I do not need help installing",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "canthelp",
+      "confidence": 0.9922865629196167
+    }
+  },
+  {
+    "text": "good moring",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9968176484107971
+    }
+  },
+  {
+    "text": "hi im Amanda Anderson",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5276191234588623
+    }
+  },
+  {
+    "text": "bad",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9999140501022339
+    }
+  },
+  {
+    "text": "i am angry over you",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "canthelp",
+      "confidence": 0.36254483461380005
+    }
+  },
+  {
+    "text": "i am so worry",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7973647713661194
+    }
+  },
+  {
+    "text": "i will leave",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9999982118606567
+    }
+  },
+  {
+    "text": "feeling like a king",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.5956068634986877
+    }
+  },
+  {
+    "text": "my day was horrible",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.9856604337692261
+    }
+  },
+  {
+    "text": "TbpBXuJC",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.30047407746315
+    }
+  },
+  {
+    "text": "DnBeoWKo",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.5837495923042297
+    }
+  },
+  {
+    "text": "amazing!",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9983322024345398
+    }
+  },
+  {
+    "text": "done",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9118027687072754
+    }
+  },
+  {
+    "text": "how nice!",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "explain",
+      "confidence": 0.7652972340583801
+    }
+  },
+  {
+    "text": "very much",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.9443078637123108
+    }
+  },
+  {
+    "text": "yep, will do thank you",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.5802062749862671
+    }
+  },
+  {
+    "text": "you got me, I accept, if you want me to",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.7575182318687439
+    }
+  },
+  {
+    "text": "really",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8809232711791992
+    }
+  },
+  {
+    "text": ":)",
+    "intent": "react_positive",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6223794221878052
+    }
+  },
+  {
+    "text": "Looks nice",
+    "intent": "react_positive",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8519172668457031
+    }
+  },
+  {
+    "text": "such a great demo",
+    "intent": "react_positive",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.37569886445999146
+    }
+  },
+  {
+    "text": "That's awesome.",
+    "intent": "react_positive",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9975242614746094
+    }
+  },
+  {
+    "text": "cya",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9953011870384216
+    }
+  },
+  {
+    "text": "hey, you promised to contact me, but nobody did, I really need to finish that car insurance bot!!!!",
+    "intent": "canthelp",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9880622029304504
+    }
+  },
+  {
+    "text": "I don't agree",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.48840266466140747
+    }
+  },
+  {
+    "text": "give me more details",
+    "intent": "explain",
+    "intent_prediction": {
+      "name": "question_about_clg_internships",
+      "confidence": 0.4125814437866211
+    }
+  },
+  {
+    "text": "i dont like bots",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9948909878730774
+    }
+  },
+  {
+    "text": "this is a really frustrating experience",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5520178079605103
+    }
+  },
+  {
+    "text": "danke",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.6363250017166138
+    }
+  },
+  {
+    "text": "wonderful",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.6627813577651978
+    }
+  },
+  {
+    "text": "I am feeling very good",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9421497583389282
+    }
+  },
+  {
+    "text": "I don't feel very well",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8319950699806213
+    }
+  },
+  {
+    "text": "NAZoEYOD",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5143123865127563
+    }
+  },
+  {
+    "text": "XIjTYiVD",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.40615642070770264
+    }
+  },
+  {
+    "text": "a little",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9726662635803223
+    }
+  },
+  {
+    "text": "absolutely",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9803313612937927
+    }
+  },
+  {
+    "text": "ok, I understood",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6460855007171631
+    }
+  },
+  {
+    "text": "perfect",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9735916256904602
+    }
+  },
+  {
+    "text": "you are a badass bot!",
+    "intent": "react_positive",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9957219362258911
+    }
+  },
+  {
+    "text": "good afternoon",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5363225936889648
+    }
+  },
+  {
+    "text": "do you get anything?",
+    "intent": "canthelp",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9991681575775146
+    }
+  },
+  {
+    "text": "exit now",
+    "intent": "canthelp",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.9923370480537415
+    }
+  },
+  {
+    "text": "decline",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7755780220031738
+    }
+  },
+  {
+    "text": "i decline",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.881605863571167
+    }
+  },
+  {
+    "text": "i'm not sure",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9782754182815552
+    }
+  },
+  {
+    "text": "greet",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9999775886535645
+    }
+  },
+  {
+    "text": "sup",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8834686279296875
+    }
+  },
+  {
+    "text": "I am feeling bad",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9933839440345764
+    }
+  },
+  {
+    "text": "u broke my heart",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6313850283622742
+    }
+  },
+  {
+    "text": "iam not feeling good",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9745767116546631
+    }
+  },
+  {
+    "text": "sadly",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6054195761680603
+    }
+  },
+  {
+    "text": "great",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9999693632125854
+    }
+  },
+  {
+    "text": "I am going to save the world",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4663839042186737
+    }
+  },
+  {
+    "text": "EasyPasS",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9594234824180603
+    }
+  },
+  {
+    "text": "TrmAySBL",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9657226800918579
+    }
+  },
+  {
+    "text": "I changed my mind. I want to accept it",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9637889266014099
+    }
+  },
+  {
+    "text": "I guess so",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "canthelp",
+      "confidence": 0.49235454201698303
+    }
+  },
+  {
+    "text": "not bad",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8061500787734985
+    }
+  },
+  {
+    "text": "considering",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.41860824823379517
+    }
+  },
+  {
+    "text": "sounds good!",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5144131183624268
+    }
+  },
+  {
+    "text": "I mean to say that I liked the explanation",
+    "intent": "react_positive",
+    "intent_prediction": {
+      "name": "explain",
+      "confidence": 0.9951910376548767
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.49830231070518494
+    }
+  },
+  {
+    "text": "exit",
+    "intent": "canthelp",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.9996732473373413
+    }
+  },
+  {
+    "text": "it sux",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6888803839683533
+    }
+  },
+  {
+    "text": "nehi",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6833326816558838
+    }
+  },
+  {
+    "text": "very bad",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9999430179595947
+    }
+  },
+  {
+    "text": "ayyyy whaddup",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.3148185610771179
+    }
+  },
+  {
+    "text": "good evening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7272347807884216
+    }
+  },
+  {
+    "text": "ok continue please",
+    "intent": "next_step",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9914126992225647
+    }
+  },
+  {
+    "text": "crappy joke",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.9996091723442078
+    }
+  },
+  {
+    "text": "unhappy",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.999964714050293
+    }
+  },
+  {
+    "text": "not very good",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9986563324928284
+    }
+  }
+]

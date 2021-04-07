@@ -1,0 +1,165 @@
+{
+  "user_wants_to_check_marks": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "explain": {
+    "precision": 0.65,
+    "recall": 0.8125,
+    "f1-score": 0.7222222222222223,
+    "support": 16,
+    "confused_with": {
+      "affirm": 2,
+      "canthelp": 1
+    }
+  },
+  "user_submitted_usn": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "user_submitted_password": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 14,
+    "confused_with": {
+      "affirm": 10,
+      "deny": 2,
+      "react_positive": 1
+    }
+  },
+  "mood_unhappy": {
+    "precision": 0.6296296296296297,
+    "recall": 0.6071428571428571,
+    "f1-score": 0.6181818181818182,
+    "support": 56,
+    "confused_with": {
+      "react_positive": 9,
+      "deny": 5
+    }
+  },
+  "thank": {
+    "precision": 0.9487179487179487,
+    "recall": 0.9487179487179487,
+    "f1-score": 0.9487179487179487,
+    "support": 39,
+    "confused_with": {
+      "mood_great": 1,
+      "affirm": 1
+    }
+  },
+  "bye": {
+    "precision": 0.9210526315789473,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.8045977011494253,
+    "support": 49,
+    "confused_with": {
+      "affirm": 6,
+      "mood_unhappy": 4
+    }
+  },
+  "question_about_clg_internships": {
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8,
+    "confused_with": {
+      "explain": 1
+    }
+  },
+  "mood_great": {
+    "precision": 0.15789473684210525,
+    "recall": 0.21428571428571427,
+    "f1-score": 0.18181818181818182,
+    "support": 14,
+    "confused_with": {
+      "affirm": 7,
+      "react_positive": 1
+    }
+  },
+  "affirm": {
+    "precision": 0.75,
+    "recall": 0.8133333333333334,
+    "f1-score": 0.7803837953091683,
+    "support": 225,
+    "confused_with": {
+      "mood_great": 12,
+      "react_positive": 8
+    }
+  },
+  "canthelp": {
+    "precision": 0.7037037037037037,
+    "recall": 0.7307692307692307,
+    "f1-score": 0.7169811320754716,
+    "support": 26,
+    "confused_with": {
+      "deny": 3,
+      "affirm": 3
+    }
+  },
+  "react_positive": {
+    "precision": 0.676056338028169,
+    "recall": 0.7741935483870968,
+    "f1-score": 0.7218045112781956,
+    "support": 62,
+    "confused_with": {
+      "affirm": 8,
+      "mood_unhappy": 2
+    }
+  },
+  "next_step": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9333333333333333,
+    "support": 15,
+    "confused_with": {
+      "affirm": 1
+    }
+  },
+  "user_wants_to_check_attendance": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 0.9492753623188406,
+    "recall": 0.891156462585034,
+    "f1-score": 0.919298245614035,
+    "support": 147,
+    "confused_with": {
+      "affirm": 12,
+      "mood_unhappy": 2
+    }
+  },
+  "deny": {
+    "precision": 0.8144329896907216,
+    "recall": 0.797979797979798,
+    "f1-score": 0.8061224489795918,
+    "support": 99,
+    "confused_with": {
+      "mood_unhappy": 6,
+      "affirm": 6
+    }
+  },
+  "accuracy": 0.7917705735660848,
+  "macro avg": {
+    "precision": 0.7521310421152125,
+    "recall": 0.7570436213012538,
+    "f1-score": 0.7521351933165847,
+    "support": 802
+  },
+  "weighted avg": {
+    "precision": 0.7883235636118591,
+    "recall": 0.7917705735660848,
+    "f1-score": 0.7881049493312596,
+    "support": 802
+  }
+}
